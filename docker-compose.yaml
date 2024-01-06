@@ -150,7 +150,7 @@ services:
     container_name: tl-sidecar
     build:
       context: ..
-      dockerfile: ./docker/tl-sidecar.Dockerfile
+      dockerfile: ./tl-sidecar.Dockerfile
     ports: 
       - "3088:3088"
     networks:
