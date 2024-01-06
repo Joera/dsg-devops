@@ -149,7 +149,7 @@ services:
     image: tl-sidecar_node
     container_name: tl-sidecar
     build:
-      context: ..
+      context: .
       dockerfile: ./tl-sidecar.Dockerfile
     ports: 
       - "3088:3088"
