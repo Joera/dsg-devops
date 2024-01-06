@@ -158,11 +158,11 @@ services:
 
 secrets:
   nox-0:
-    file: secrets/nox-0.txt
+    file: ../secrets/nox-0.txt
   nox-1:
-    file: secrets/nox-1.txt
+    file: ../secrets/nox-1.txt
   nox-2:
-    file: secrets/nox-2.txt
+    file: ../secrets/nox-2.txt
 
 networks:
   dsg:
