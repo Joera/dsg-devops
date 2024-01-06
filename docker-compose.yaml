@@ -29,7 +29,11 @@ services:
       - dsg
 
   nox-0:
-    image: fluencelabs/nox:latest
+    image: nox-dsg
+    container_name: nox-dsg-0
+    build:
+      context: .
+      dockerfile: ./nox-dsg.Dockerfile
     pull_policy: always
     ports:
       - 7771:7771
@@ -68,7 +72,11 @@ services:
       - dsg
       
   nox-1:
-    image: fluencelabs/nox:latest
+    image: nox-dsg
+    container_name: nox-dsg-1
+    build:
+      context: .
+      dockerfile: ./nox-dsg.Dockerfile
     pull_policy: always
     ports:
       - 7772:7772
@@ -107,7 +115,11 @@ services:
       - dsg
          
   nox-2:
-    image: fluencelabs/nox:latest
+    image: nox-dsg
+    container_name: nox-dsg-2
+    build:
+      context: .
+      dockerfile: ./nox-dsg.Dockerfile
     pull_policy: always
     ports:
       - 7773:7773
