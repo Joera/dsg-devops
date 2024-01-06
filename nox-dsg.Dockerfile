@@ -2,5 +2,5 @@ FROM fluencelabs/nox:latest
 
 WORKDIR /usr/bin/ 
 
-COPY ../car-utils .
+COPY ./bin/car-utils .
 WORKDIR / 
