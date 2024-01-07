@@ -58,10 +58,9 @@ services:
       - -t=7771
       - -w=9991
       - --external-maddrs
-      - /dns4/nox-0/tcp/7771
-      - /dns4/nox-0/tcp/9991/ws
+      - /ip4/143.176.14.172/tcp/7771
+      - /ip4/143.176.14.172/tcp/9991/ws
       - --allow-private-ips
-      - --local
     depends_on:
       - ipfs
     secrets:

@@ -39,7 +39,7 @@ listen_ip = "0.0.0.0"
 socket_timeout = "20s"
 
 # websocket_port = 9999
-# external_address = "143.176.14.172"
+external_address = "143.176.14.172"
 prometheus_port = 18080
 aquavm_pool_size = 16
 
