@@ -154,8 +154,8 @@ services:
     image: tl-sidecar_node
     container_name: tl-sidecar
     build:
-      context: .
-      dockerfile: ./tl-sidecar.Dockerfile
+      context: ..
+      dockerfile: ./dsg-devops/tl-sidecar.Dockerfile
     ports: 
       - "3088:3088"
     networks:
