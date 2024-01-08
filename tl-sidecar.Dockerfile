@@ -6,5 +6,5 @@ COPY ../environments/.env-tableland .env
 RUN npm install
 
 EXPOSE 3088
-CMD [ "npm", "run", "app.js" ]
+CMD [ "npm", "run", "start" ]
 
