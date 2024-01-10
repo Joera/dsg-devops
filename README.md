@@ -1,4 +1,4 @@
-## Overviw of parts involved 
+## Overview of parts involved 
 
 ![arch](./drawings/dsg-architecture.png)
 
