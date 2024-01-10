@@ -1,11 +1,12 @@
-## Parts involved 
+## Overviw of parts involved 
 
 ![arch](./drawings/dsg-architecture.png)
 
-### 1
+### data flows (december 2023)
+
+![arch](./drawings/DSG2.png)
+
+### diagram (october 2023) 
 
 ![arch](./drawings/DSG.png)
 
-### 2
-
-![arch](./drawings/DSG2.png)
