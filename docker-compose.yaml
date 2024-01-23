@@ -170,7 +170,7 @@ services:
       dockerfile: ./dsg-devops/webhost-sidecar.Dockerfile
     ports: 
       - "8001:8001"
-    volumnes:
+    volumes:
       - webhost1:/.fluence/v1/shared
     networks:
       - dsg
