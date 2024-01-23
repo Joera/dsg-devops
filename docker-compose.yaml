@@ -184,6 +184,9 @@ secrets:
   nox-2:
     file: ../secrets/nox-2.txt
 
+volumes:
+  - webhost1
+
 networks:
   dsg:
     name: dsg
