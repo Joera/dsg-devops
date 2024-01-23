@@ -61,6 +61,7 @@ services:
       - nox-0
     volumes: 
       - ./Config.toml:/.fluence/v1/Config.toml
+      - webhost1:/.fluence/v1/shared
     networks:
       - dsg
       
@@ -160,6 +161,20 @@ services:
       - "3088:3088"
     networks:
       - dsg
+
+  webhost-sidecar:
+    image: webhost-sidecar_node
+    container_name: webhost-sidecar
+    build:
+      context: ..
+      dockerfile: ./dsg-devops/webhost-sidecar.Dockerfile
+    ports: 
+      - "8001:8001"
+    volumnes:
+      - webhost1:/.fluence/v1/shared
+    networks:
+      - dsg
+
 
 secrets:
   nox-0:
